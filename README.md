@@ -30,14 +30,15 @@ Este repositório contém a definição e criação de uma base de dados SQL par
 - `dia (DATE)`: Data da reserva (Chave Primária).
 
 # Inserções de Exemplo
- 1. Tabela `vendedores`
-```bash
+ ## Tabela `vendedores`
+```csharp
 INSERT INTO vendedores (idVend, nomeVend, idade) VALUES
 (1, 'João Silva', 28),
 (2, 'Maria Fernandes', 32),
 ... (dados de exemplo para os outros vendedores);
+````
 
-2. Tabela `barcos`
+## Tabela `barcos`
 ```bash
 INSERT INTO barcos (idBarco, nomeBarco, cor) VALUES
 (1, 'Barco A', 'Azul'),
