@@ -31,7 +31,7 @@ Este repositório contém a definição e criação de uma base de dados SQL par
 
 # Inserções de Exemplo
  - Tabela `vendedores`
-
+```bash
 INSERT INTO vendedores (idVend, nomeVend, idade) VALUES
 (1, 'João Silva', 28),
 (2, 'Maria Fernandes', 32),
