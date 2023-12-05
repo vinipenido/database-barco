@@ -7,6 +7,7 @@ Este repositório contém a definição e criação de uma base de dados SQL par
 Descrição: Armazena informações sobre os vendedores.
 
 ## Campos:
+
 ### `idVend (INT)`: Identificador único do vendedor (Chave Primária).
 ### `nomeVend (VARCHAR(255))`: Nome do vendedor.
 ### `idade (INT)`: Idade do vendedor.
@@ -16,6 +17,7 @@ Descrição: Armazena informações sobre os vendedores.
 Descrição: Armazena informações sobre os barcos disponíveis.
 
 ## Campos:
+
 ### `idBarco (INT)`: Identificador único do barco (Chave Primária).
 ### `nomeBarco (VARCHAR(255))`: Nome do barco.
 ### `cor (VARCHAR(50))`: Cor do barco.
@@ -23,6 +25,7 @@ Descrição: Armazena informações sobre os barcos disponíveis.
 
 ### Tabela `FazReserva`
 Descrição: Registra as reservas feitas pelos vendedores para os barcos.
+
 ## Campos:
 ### `idVend (INT)`: Chave estrangeira referenciando vendedores(idVend).
 ### `idBarco (INT)`: Chave estrangeira referenciando barcos(idBarco).
