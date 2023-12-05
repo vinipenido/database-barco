@@ -13,7 +13,7 @@ Descrição: Armazena informações sobre os vendedores.
 ### `idade (INT)`: Idade do vendedor.
 
 
-### Tabela `barcos`
+## Tabela `barcos`
 Descrição: Armazena informações sobre os barcos disponíveis.
 
 ## Campos:
