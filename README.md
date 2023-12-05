@@ -12,6 +12,7 @@ Descrição: Armazena informações sobre os vendedores.
 ### `nomeVend (VARCHAR(255))`: Nome do vendedor.
 ### `idade (INT)`: Idade do vendedor.
 
+
 ### Tabela `barcos`
 Descrição: Armazena informações sobre os barcos disponíveis.
 
