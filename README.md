@@ -8,21 +8,23 @@ Descrição: Armazena informações sobre os vendedores.
 ### Campos:
 
 ### `idVend (INT)`: Identificador único do vendedor (Chave Primária).
-nomeVend (VARCHAR(255)): Nome do vendedor.
-idade (INT): Idade do vendedor.
-2. Tabela barcos
+### `nomeVend (VARCHAR(255))`: Nome do vendedor.
+### `idade (INT)`: Idade do vendedor.
+
+### Tabela barcos
 Descrição: Armazena informações sobre os barcos disponíveis.
 
-Campos:
+### Campos:
 
-idBarco (INT): Identificador único do barco (Chave Primária).
-nomeBarco (VARCHAR(255)): Nome do barco.
-cor (VARCHAR(50)): Cor do barco.
-3. Tabela FazReserva
+### `idBarco (INT)`: Identificador único do barco (Chave Primária).
+### `nomeBarco (VARCHAR(255))`: Nome do barco.
+### `cor (VARCHAR(50))`: Cor do barco.
+
+### Tabela FazReserva
 Descrição: Registra as reservas feitas pelos vendedores para os barcos.
 
-Campos:
+### Campos:
 
-idVend (INT): Chave estrangeira referenciando vendedores(idVend).
-idBarco (INT): Chave estrangeira referenciando barcos(idBarco).
-dia (DATE): Data da reserva (Chave Primária).
+### `idVend (INT)`: Chave estrangeira referenciando vendedores(idVend).
+### `idBarco (INT)`: Chave estrangeira referenciando barcos(idBarco).
+### `dia (DATE)`: Data da reserva (Chave Primária).
