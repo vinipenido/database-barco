@@ -2,6 +2,7 @@
 Este repositório contém a definição e criação de uma base de dados SQL para o gerenciamento de informações sobre vendedores, barcos e suas reservas. A seguir, são fornecidas informações detalhadas sobre a estrutura da base de dados, as tabelas envolvidas e algumas inserções de dados de exemplo.
 
 ## Tabelas
+
 ### Tabela `vendedores`
 Descrição: Armazena informações sobre os vendedores.
 
