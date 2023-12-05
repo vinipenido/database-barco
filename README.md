@@ -5,7 +5,7 @@ Este repositório contém a definição e criação de uma base de dados SQL par
 ### Tabela `vendedores`
 Descrição: Armazena informações sobre os vendedores.
 
-- Campos:
+### Campos:
 
 ### `idVend (INT)`: Identificador único do vendedor (Chave Primária).
 nomeVend (VARCHAR(255)): Nome do vendedor.
