@@ -6,9 +6,9 @@ Descrição: Armazena informações sobre os vendedores.
 
 ## Campos:
 
-## `idVend (INT)`: Identificador único do vendedor (Chave Primária).
-## `nomeVend (VARCHAR(255))`: Nome do vendedor.
-## `idade (INT)`: Idade do vendedor.
+### `idVend (INT)`: Identificador único do vendedor (Chave Primária).
+### `nomeVend (VARCHAR(255))`: Nome do vendedor.
+### `idade (INT)`: Idade do vendedor.
 
 
 # Tabela `barcos`
@@ -16,9 +16,9 @@ Descrição: Armazena informações sobre os barcos disponíveis.
 
 ## Campos:
 
-## `idBarco (INT)`: Identificador único do barco (Chave Primária).
-## `nomeBarco (VARCHAR(255))`: Nome do barco.
-## `cor (VARCHAR(50))`: Cor do barco.
+### `idBarco (INT)`: Identificador único do barco (Chave Primária).
+### `nomeBarco (VARCHAR(255))`: Nome do barco.
+### `cor (VARCHAR(50))`: Cor do barco.
 
 
 # Tabela `FazReserva`
