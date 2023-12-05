@@ -28,3 +28,12 @@ Este repositório contém a definição e criação de uma base de dados SQL par
 - `idVend (INT)`: Chave estrangeira referenciando vendedores(idVend).
 - `idBarco (INT)`: Chave estrangeira referenciando barcos(idBarco).
 - `dia (DATE)`: Data da reserva (Chave Primária).
+
+# Inserções de Exemplo
+ - Tabela `vendedores`
+
+INSERT INTO vendedores (idVend, nomeVend, idade) VALUES
+(1, 'João Silva', 28),
+(2, 'Maria Fernandes', 32),
+... (dados de exemplo para os outros vendedores);
+
