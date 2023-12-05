@@ -7,7 +7,7 @@ Descrição: Armazena informações sobre os vendedores.
 
 - Campos:
 
-idVend (INT): Identificador único do vendedor (Chave Primária).
+### `idVend (INT)`: Identificador único do vendedor (Chave Primária).
 nomeVend (VARCHAR(255)): Nome do vendedor.
 idade (INT): Idade do vendedor.
 2. Tabela barcos
