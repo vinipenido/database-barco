@@ -21,7 +21,7 @@ Este repositório contém a definição e criação de uma base de dados SQL par
 - `cor (VARCHAR(50))`: Cor do barco.
 
 # Tabela `FazReserva`
-### Descrição: Registra as reservas feitas pelos vendedores para os barcos.
+## Descrição: Registra as reservas feitas pelos vendedores para os barcos.
 
 ## Campos:
 
