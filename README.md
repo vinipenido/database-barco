@@ -21,10 +21,11 @@ Descrição: Armazena informações sobre os barcos disponíveis.
 ## `cor (VARCHAR(50))`: Cor do barco.
 
 
-## Tabela `FazReserva`
+# Tabela `FazReserva`
 Descrição: Registra as reservas feitas pelos vendedores para os barcos.
 
 ## Campos:
+
 ### `idVend (INT)`: Chave estrangeira referenciando vendedores(idVend).
 ### `idBarco (INT)`: Chave estrangeira referenciando barcos(idBarco).
 ### `dia (DATE)`: Data da reserva (Chave Primária).
