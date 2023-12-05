@@ -1,9 +1,7 @@
 # Documentação da Base de Dados
 Este repositório contém a definição e criação de uma base de dados SQL para o gerenciamento de informações sobre vendedores, barcos e suas reservas. A seguir, são fornecidas informações detalhadas sobre a estrutura da base de dados, as tabelas envolvidas e algumas inserções de dados de exemplo.
 
-## Tabelas
-
-### Tabela `vendedores`
+## Tabela `vendedores`
 Descrição: Armazena informações sobre os vendedores.
 
 ## Campos:
@@ -13,7 +11,7 @@ Descrição: Armazena informações sobre os vendedores.
 ### `idade (INT)`: Idade do vendedor.
 
 
-### Tabela `barcos`
+## Tabela `barcos`
 Descrição: Armazena informações sobre os barcos disponíveis.
 
 ## Campos:
@@ -23,7 +21,7 @@ Descrição: Armazena informações sobre os barcos disponíveis.
 ### `cor (VARCHAR(50))`: Cor do barco.
 
 
-### Tabela `FazReserva`
+## Tabela `FazReserva`
 Descrição: Registra as reservas feitas pelos vendedores para os barcos.
 
 ## Campos:
