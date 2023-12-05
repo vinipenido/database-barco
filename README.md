@@ -20,8 +20,6 @@ Descrição: Armazena informações sobre os barcos disponíveis.
 ### `nomeBarco (VARCHAR(255))`: Nome do barco.
 ### `cor (VARCHAR(50))`: Cor do barco.
 
-#############
-
 # Tabela `FazReserva`
 Descrição: Registra as reservas feitas pelos vendedores para os barcos.
 
