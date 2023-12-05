@@ -58,15 +58,15 @@ INSERT INTO FazReserva (idVend, idBarco, dia) VALUES
 
 - A tabela `FazReserva` possui chaves estrangeiras (`idVend` e `idBarco`) que referenciam as tabelas `vendedores` e `barcos`, respectivamente.
 
-A relação entre as tabelas permite rastrear quais vendedores fizeram reservas para quais barcos em datas específicas.
+- A relação entre as tabelas permite rastrear quais vendedores fizeram reservas para quais barcos em datas específicas.
 
 # Observações
 
-Certifique-se de manter a integridade referencial ao inserir dados nas tabelas `FazReserva`, respeitando as chaves estrangeiras.
+- Certifique-se de manter a integridade referencial ao inserir dados nas tabelas `FazReserva`, respeitando as chaves estrangeiras.
 
-As inserções de exemplo fornecidas são fictícias e podem ser substituídas por dados reais conforme necessário.
+- As inserções de exemplo fornecidas são fictícias e podem ser substituídas por dados reais conforme necessário.
 
-Esperamos que esta documentação ajude na compreensão e utilização da base de dados. Em caso de dúvidas ou sugestões, sinta-se à vontade para entrar em contato.
+- Esperamos que esta documentação ajude na compreensão e utilização da base de dados. Em caso de dúvidas ou sugestões, sinta-se à vontade para entrar em contato.
 
 
 
